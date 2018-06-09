@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"     
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kk.dao.CollectDao">
+	<select id="findCollect"  parameterType="string" resultType="java.util.Map">
+		SELECT collect.*,picAddress,productName,productDescription,productPriceUser 
+		FROM collect,product,picture 
+		WHERE productImgId=PID and collect.productId=product.productId and userName=#{userName}
+	</select>
+	<select id="findCollectById" parameterType="collect" resultType="collect">
+		SELECT * FROM collect WHERE productId=#{productId} and userName=#{userName}
+	</select>
+	<insert id="addCollect" parameterType="collect">
+		INSERT INTO collect(productId,userName,collectInTime)
+		VALUES(#{productId},#{userName},#{collectInTime})
+	</insert>
+	<delete id="delCollect" parameterType="int">
+		DELETE  FROM collect WHERE collectId=#{collectId}
+	</delete>
+</mapper>

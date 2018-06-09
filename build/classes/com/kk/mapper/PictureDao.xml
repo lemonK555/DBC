@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"     
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kk.dao.PictureDao">
+	<insert id="insertPicture" parameterType="picture">
+		INSERT INTO picture(picId,picName,picFunctionName,picAddress,picIsChecked,picReTime)VALUES(#{picId},#{picName},#{picFunctionName},#{picAddress},#{picIsChecked},#{picReTime})
+	</insert>
+	<select id="queryAllPicture" parameterType="picture" resultType="picture">
+		SELECT * FROM picture
+	</select>
+	<select id="findPicByPID" parameterType="int" resultType="picture">
+		SELECT * FROM picture WHERE PID=#{PID}
+	</select>
+	<delete id="deletePicture" parameterType="picture">
+		DELETE  FROM picture WHERE PID=#{PID}
+	</delete>
+	<update id="updatePicture" parameterType="picture">
+		UPDATE 	picture SET  picId=#{picId},picName=#{picName},picFunctionName=#{picFunctionName},picAddress=#{picAddress},picIsChecked=#{picIsChecked},picReTime=#{picReTime} WHERE PID=#{PID}
+	</update>
+</mapper>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+ <configuration>
+	<!--  配置别名-->
+	<typeAliases>
+		<typeAlias type="com.kk.model.User" alias="user"></typeAlias>
+		<typeAlias type="com.kk.model.Picture" alias="picture"></typeAlias>
+		<typeAlias type="com.kk.model.Product" alias="product"></typeAlias>
+		<typeAlias type="com.kk.model.Collect" alias="collect"></typeAlias>
+		<typeAlias type="com.kk.model.MarketCart" alias="marketCart"></typeAlias>
+		<typeAlias type="com.kk.model.Order" alias="order"></typeAlias>
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="com/kk/mapper/UserDao.xml" />
+		<mapper resource="com/kk/mapper/PictureDao.xml" />
+		<mapper resource="com/kk/mapper/ProductDao.xml" />
+		<mapper resource="com/kk/mapper/CollectDao.xml" />
+		<mapper resource="com/kk/mapper/MarketCartDao.xml" />
+		<mapper resource="com/kk/mapper/OrderDao.xml" />
+	</mappers>
+</configuration>
