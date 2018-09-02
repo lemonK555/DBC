@@ -1,23 +1,23 @@
 # DBC---这是一个简易的特产售卖网站
 html+css+javascript+SpringMVC+Ajax -- 2017JavaEE
 
-**![首页](https://github.com/lemonK555/DBC/tree/master/show/首页.png)**
+**![首页](https://raw.githubusercontent.com/lemonK555/DBC/master/show/首页.png)**
 
-**![全部商品](https://github.com/lemonK555/DBC/tree/master/show/全部商品.png)**
+**![全部商品](https://raw.githubusercontent.com/lemonK555/DBC/master/show/全部商品.png)**
 
-**![购物车](https://github.com/lemonK555/DBC/tree/master/show/购物车.png)**
+**![购物车](https://raw.githubusercontent.com/lemonK555/DBC/master/show/购物车.png)**
 
-**![用户订单](https://github.com/lemonK555/DBC/tree/master/show/用户订单.png)**
+**![用户订单](https://raw.githubusercontent.com/lemonK555/DBC/master/show/用户订单.png)**
 
-**![用户收藏](https://github.com/lemonK555/DBC/tree/master/show/用户收藏.png)**
+**![用户收藏](https://raw.githubusercontent.com/lemonK555/DBC/master/show/用户收藏.png)**
 
-**![注册](https://github.com/lemonK555/DBC/tree/master/show/注册.png)**
+**![注册](https://raw.githubusercontent.com/lemonK555/DBC/master/show/注册.png)**
 
-**![登陆](https://github.com/lemonK555/DBC/tree/master/show/登陆.png)**
+**![登陆](https://raw.githubusercontent.com/lemonK555/DBC/master/show/登陆.png)**
 
-**![后台管理-产品信息管理](https://github.com/lemonK555/DBC/tree/master/show/后台管理-产品信息管理.png)**
+**![后台管理-产品信息管理](https://raw.githubusercontent.com/lemonK555/DBC/master/show/后台管理-产品信息管理.png)**
 
-**![后台管理-用户](https://github.com/lemonK555/DBC/tree/master/show/后台管理-用户.png)**
+**![后台管理-用户](https://raw.githubusercontent.com/lemonK555/DBC/master/show/后台管理-用户.png)**
 
 **前端使用网页模板。**
 **使用CSS+原生JS，实现了页面的动画效果和表单验证等功能**
